@@ -5,14 +5,17 @@
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
-		<div ng-controller="animalId">
-			<input placeholder="name..."  />
-			<input placeholder="age..."  />
-			<input placeholder="breed..."  />
-			<input placeholder="location..."  />
+		<div id="animalId" ng-controller="animalId"><hr />
+			<input placeholder="name..." ng-model="name"/><hr />
+			<input placeholder="age..."  ng-model="age"/><hr />
+			<input placeholder="breed..."  ng-model="breed"/><hr />
+			<input placeholder="location..."  ng-model="location"/><hr />
+			<input type="file" name="pic" accept="image/*" ng-model="file"><hr />
+			<button ng-click="send()">send</button><hr />
 		</div>
 		
 		<script src="js/angular (1).js"></script>
 		<script src="app/config.js"></script>
+		<script src="app/controllers/form.js"></script>
 	</body>
 </html>

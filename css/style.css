@@ -1,5 +1,13 @@
 body {
-background-image:url("https://i.kinja-img.com/gawker-media/image/upload/xqkbwkexcl7udc5va7pn.jpg");
+ background-image:url("http://secondchancedogrescue.org/beta/wp-content/uploads/2013/08/SCDR-Home-1.jpg");
  background-repeat: no-repeat;
  background-size:100%;
+}
+#animalId{
+	width:12.8%;
+	float:right;
+}
+
+#animalId input{
+	background-color:red;
 }
