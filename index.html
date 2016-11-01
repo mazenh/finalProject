@@ -5,17 +5,35 @@
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
-		<div id="animalId" ng-controller="animalId"><hr />
-			<input placeholder="name..." ng-model="name"/><hr />
-			<input placeholder="age..."  ng-model="age"/><hr />
-			<input placeholder="breed..."  ng-model="breed"/><hr />
-			<input placeholder="location..."  ng-model="location"/><hr />
-			<input type="file" name="pic" accept="image/*" ng-model="file"><hr />
-			<button ng-click="send()">send</button><hr />
-		</div>
+		<!-- <div id="animalId" ng-controller="animalId"> -->
+				<nav>
+					<ul>
+						  <li><a href="#home">Home</a></li>
+ 						  <li><a href="#contact">Contact</a></li>
+  						  <li><a href="#about">About</a></li>
+					</ul>
+				</nav>
+			<div class="clearBox"></div>
+		    
 		
+		
+			<!-- <input class="info" placeholder="name..." ng-model="name"/><hr />
+			<input class="info" placeholder="age..."  ng-model="age"/><hr />
+			<input class="info" placeholder="breed..."  ng-model="breed"/><hr />
+			<input class="info" placeholder="location..."  ng-model="location"/><hr />
+			<input class="info" type="file" name="pic" accept="image/*" ng-model="file"><hr />
+			<button ng-click="send()">send</button><hr /> -->
+		<!-- </div> -->
+		<ng-view></ng-view>
+		
+		<script src="node_modules/jquery/dist/jquery.js"></script>
 		<script src="js/angular (1).js"></script>
+		<script src="js/angular-route.min.js"></script>
 		<script src="app/config.js"></script>
-		<script src="app/controllers/form.js"></script>
+		<script src="script2.js"></script>
+		<!-- <script src="app/controllers/form.js"></script> -->
+		<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		
 	</body>
 </html>
