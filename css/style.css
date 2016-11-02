@@ -1,12 +1,12 @@
 /*body {
- background-image:url("http://secondchancedogrescue.org/beta/wp-content/uploads/2013/08/SCDR-Home-1.jpg");
+ background-image:url("/img/pic1.jpg")
  background-repeat: no-repeat;
  background-size:100%;
 }*/
-.clearBox{
+/*.clearBox{
 	overflow:hidden;
 	clear: both;
-}
+}*/
 
 /*#animalId{
 	width:12.8%;

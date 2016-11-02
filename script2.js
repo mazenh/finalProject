@@ -1,10 +1,15 @@
-(function (){
-	angular.module("app").config(route);
-	function route($routeProvider) {
+
+var app = angular.module("app", ["ngRoute"]);
+app.config(function($routeProvider) {
     $routeProvider
+    .when("/contact", {
+        templateUrl : "app/views/contact.html"
+    })
     .when("/about", {
-        templateUrl : "/app/views/html2.html",
-        // controller: "animalId",
-    });
-};
-})();
+        templateUrl : "app/views/about.html"
+      })
+
+.otherwise({
+	redirectTo:'/'
+});
+});
