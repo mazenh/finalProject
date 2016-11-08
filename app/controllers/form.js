@@ -8,6 +8,7 @@
 					age:$scope.age,
 					breed:$scope.breed,
 					location:$scope.location,
+					phone:$scope.phone,
 					file:$scope.file,
 				};
 				var JSONdata=JSON.stringify(data);

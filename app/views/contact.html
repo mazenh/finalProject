@@ -1,54 +1,49 @@
-<p>
-	this is contact page
-</p>
+<div id="background">
 
-<div id="animalId" ng-controller="animalId">
+<div  ng-controller="animalId">
 	<form class="form-horizontal">
 		<div class="form-group">
 			<label class="control-label col-sm-1" for="name">Name:</label>
-			<div class="col-sm-10">
-
-				<input class="info" type="text"  ng-model="name"/>
-				<hr />
+			<div class="col-sm-3">
+				<input class="form-control" type="text"  ng-model="name"/>
+				
 			</div>
 		</div>
-
 		<div class="form-group">
 			<label class="control-label col-sm-1" for="age">Age:</label>
-			<div class="col-sm-10">
-
-				<input class="info" type="number"  ng-model="age"/>
-				<hr />
+			<div class="col-sm-3">
+				<input class="form-control" type="number"  ng-model="age"/>
+				
 			</div>
 		</div>
-
 		<div class="form-group">
 			<label class="control-label col-sm-1" for="breed">Breed:</label>
-			<div class="col-sm-10">
-
-				<input class="info" type="text"  ng-model="breed"/>
-				<hr />
+			<div class="col-sm-3">
+				<input class="form-control" type="text"  ng-model="breed"/>
+			
 			</div>
 		</div>
-
 		<div class="form-group">
 			<label class="control-label col-sm-1" for="location">Location:</label>
-			<div class="col-sm-10">
-
-				<input class="info"   ng-model="location"/>
-				<hr />
+			<div class="col-sm-3">
+				<input class="form-control"  ng-model="location"/>
+				
 			</div>
 		</div>
-
+		<div class="form-group">
+			<label class="control-label col-sm-1" for="phone">Phone Number:</label>
+			<div class="col-sm-3">
+				<input class="form-control"  ng-model="phone"/>
+				
+			</div>
+		</div>
 		<div class="form-group">
 			<label class="control-label col-sm-1" for="file">Image:</label>
-			<div class="col-sm-10">
-
-				<input class="info" type="file" name="pic" accept="image/*" ng-model="file">
-				<hr />
+			<div class="col-sm-3">
+			   <input class="form-control" type="file" name="pic" accept="image/*" ng-model="file">
+				
 			</div>
 		</div>
-
 		<div class="form-group">
 			<div class="col-sm-offset-1 col-sm-2">
 				<button  ng-click="send()"  class="btn btn-info">
@@ -57,7 +52,7 @@
 			</div>
 		</div>
 	</form>
-
+</div>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
